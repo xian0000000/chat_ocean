@@ -148,3 +148,4 @@ NEXT_PUBLIC_FIREBASE_API_KEY=your_key
 * 📱 Mobile responsive UI
 * 🧠 Message AI features
 * 📁 File sharing
+ 
