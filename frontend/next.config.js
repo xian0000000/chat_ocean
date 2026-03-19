@@ -1,10 +1,9 @@
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    cache: true,
-  },
+  reactStrictMode: true,
+  swcMinify: true, // optimasi minify
 };
 
+module.exports = nextConfig;
 module.exports = nextConfig;
 module.exports = nextConfig
