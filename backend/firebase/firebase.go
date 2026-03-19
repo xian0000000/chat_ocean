@@ -23,7 +23,7 @@ func Init() {
 	once.Do(func() {
 		ctx := context.Background()
 
-		opt := option.WithCredentialsFile([]byte(os.Getenv("FIREBASE_CREDENTIALS_PATH")))
+		opt := option.WithCredentialsJSON([]byte(os.Getenv("FIREBASE_CREDENTIALS_PATH")))
 
 		config := &firebase.Config{
 			DatabaseURL: os.Getenv("FIREBASE_DATABASE_URL"),
