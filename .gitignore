@@ -1,0 +1,13 @@
+# env
+.env
+
+# firebase secret
+serviceAccountKey.json
+
+# build
+*.exe
+*.out
+*.log
+
+# OS
+.DS_Store
