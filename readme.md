@@ -2,6 +2,7 @@
 
 A real-time chat application built with **Next.js (Frontend)** and **Go (Backend)**, powered by Firebase Authentication.
 
+https://chatoceanfrontend-production.up.railway.app/rooms <-- deploy chat ocean
 ---
 
 ## ✨ Features
